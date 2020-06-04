@@ -1,13 +1,9 @@
-a = c = int(input("numerator "))
-b = d = int(input("denominator "))
+def fract_red(a,b):
+    while a != 0 and b != 0:
+        if a > b:
+            a %= b
+        else:
+            b %= a
+    gcd = a + b
 
-while a != 0 and b != 0:
-    if a > b:
-        a %= b
-    else:
-        b %= a
-
-gcd = a + b
-
-print(c/gcd)
-print(d/gcd)
+   
