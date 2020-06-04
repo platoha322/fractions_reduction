@@ -5,5 +5,6 @@ def fract_red(a,b):
         else:
             b %= a
     gcd = a + b
-
+    return c/gdc
+    return d/gdc
    
